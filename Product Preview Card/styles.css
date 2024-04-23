@@ -1,0 +1,100 @@
+:root{
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+body{
+    background-color: var(--Cream);
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+h2{color: var(--Very-dark-blue);}
+.container{
+    margin: 0 auto;
+    max-width: 500px;
+    width: 90vw;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+}
+.img-holder{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 55%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/image-product-desktop.jpg);
+    background-position: center;
+}
+.product-info{
+    width: 45%;
+    margin: 20px;
+}
+span,.product-info{
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "SOFT" 0,
+      "WONK" 0;
+}
+.description,.price,.perfiume,button{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: var(--Dark-grayish-blue);
+}
+.price{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+span{
+    font-weight: 700;
+    font-size: 25px;
+    margin-right: 20px;
+    color: var(--Dark-cyan);
+}
+.perfiume{
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+button{
+    width: 100%;
+    color: white;
+    background-color: var(--Dark-cyan);
+    padding: 12px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button img{
+    width: 15px;
+    margin-right: 10px;
+}
+@media(max-width:400px){
+    .container{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .product-info{
+        width: 90%;
+        order: 2;
+    }
+    .img-holder{
+        width: 100%;
+        height: 300px;
+        order: 1;
+        border-radius: none;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+}
