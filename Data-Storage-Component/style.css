@@ -1,0 +1,120 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('images/bg-desktop.png');
+    background-color:  hsl(229, 57%, 11%);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 50%;
+}
+*{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: hsl(243, 100%, 93%);
+}
+.container{
+    margin: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    min-width: 500px;
+}
+.Fylo-direction-panel{
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px;
+    border-top-right-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: first baseline;
+    padding: 30px;
+    width: 170px;
+    margin-right: 15px;
+}
+.optoins{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    margin-top: 20px;
+}
+.optoins img{
+    background-color: hsl(229, 57%, 11%);
+    padding: 8px;
+    border-radius: 5px;
+    height: 15px;
+    width: 15px;
+}
+.storage-info{
+    background-color:hsl(228, 56%, 26%) ;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    padding: 20px 30px;
+    width: 400px;
+}
+.empty-strip{
+    height: 15px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: hsla(229, 57%, 11%, 0.459);
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.full-storage{
+    background:linear-gradient(100deg ,hsl(6, 100%, 80%) ,hsl(335, 100%, 65%));
+    height: 10px;
+    width: 70%;
+    margin-left: 3px;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: right;    
+}
+.point{
+    background-color: white;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin-right: 1px;
+}
+.storage-number{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.used-storage{
+    font-weight: 700;
+}
+.numbers{
+    font-weight: 700;
+}
+@media(max-width:530px){
+    body{
+        background-image: url('images/bg-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+        min-width: 0;
+        padding: 0;
+        width: 90%;
+    }
+    .Fylo-direction-panel{
+        width: 70%;
+        margin: 0;
+    }
+    .storage-info{
+        width: 70%;
+        margin :0;
+        margin-top: 20px;
+    }
+}
