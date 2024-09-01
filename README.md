@@ -24,12 +24,18 @@
         <li style="margin-top:10px">طراحی منعطف</li>
         <li>طریقه درست استفاده از HTML CSS برای ایجاد صفحه های تمیز و ساده وب</li>
         <li>بهبود طراحی ظاهر صفحه های وب</li>
-    </ul>
+    </ul></br></br></br>
     <div>
         <div style="display:flex;align-items:center;width:100%;justify-content:space-between;font-size:20px;margin-top:40px">
-            <p>Project Info</p>
-            <p>اطلاعات پروژه</p>
+            <p>اطلاعات پروژه - project info</p>
         </div>
-        <img src="" />
+        <div>
+            <img src="./summaryDesk.png" />
+            <h2>Result Summary Component Project</h2>
+            <p>
+                Languages : HTML | CSS 
+            </p>
+        </div>
+        <hr>
     </div>
 </div>
