@@ -33,7 +33,7 @@
             <img src="./summaryDesk.png" />
             <h2>Result Summary Component Project</h2>
             <p>
-                Languages : HTML | CSS 
+                lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
             </p>
         </div>
         <hr>
