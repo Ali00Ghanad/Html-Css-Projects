@@ -15,7 +15,7 @@
         <li>
             Improving the look and feel of web pages
         </li>
-    </ul>
+    </ul><hr>
     <p dir="rtl" style="padding-bottom:10px;border-top:1px solid cyan;padding-top:20px;margin-top:20px">
         - این ریپازیتوری به پروژه هایی اختصاص دارد که با HTML و CSS ساخته شده اند و بر طراحی ساده و تمیز تمرکز دارند.
     </p>
