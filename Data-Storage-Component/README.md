@@ -1,2 +1,2 @@
 # hi
-[pic](tomato.png)
+[pic](Tomato.png)
