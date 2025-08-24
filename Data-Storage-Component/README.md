@@ -1,2 +1,2 @@
 # hi
-[pic](Tomato.png)
+![pic](Tomato.png)
