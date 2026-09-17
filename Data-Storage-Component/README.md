@@ -1,6 +1,6 @@
 # Data Storage Component
 
-<img src="./Data-Storage-Component/Data-Storage-Component.png" alt="Data Storage Component" width="700">
+<img src="../Data-Storage-Component/Data-Storage-Component.png" alt="Data Storage Component" width="700">
 
 A responsive data storage component built using **HTML and CSS**.
 
