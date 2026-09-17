@@ -1,6 +1,6 @@
 # Product Preview Card
 
-<img src="./Product Preview Card/ProductCard.png" alt="Product Preview Card" width="700">
+<img src="../Product Preview Card/ProductCard.png" alt="Product Preview Card" width="700">
 
 A responsive product preview card built with **HTML and CSS**.
 
